@@ -1,0 +1,82 @@
+body {
+    background-color: #2c3e50;
+    color: #2c3e50;
+    transition: color 0.5s ease-in-out;
+}
+
+.clock-div{
+    float: left;
+    font-size: 25px;
+    padding-left: 20px;
+    color: #ecf0f1;
+}
+
+.weather-div{
+    float: right;
+    font-size: 20px;
+    padding-right: 25px;
+    color: #ecf0f1;
+}
+
+.js-form, .greeting-div, .js-todo, .list-div {
+    text-align: center;
+}
+
+.greeting-span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blind{
+    display : none;
+}
+
+input {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #2c3e50;
+}
+
+input::placeholder{
+    color: #2c3e50;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+.calendar { /* 위치 설정해야 함 */
+    font-size: 30px;
+    color: white;
+}

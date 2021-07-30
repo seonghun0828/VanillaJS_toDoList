@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Welcome!</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="clock-div"></div>
+        <div class="weather-div"></div>
+        <br><br><br>
+        <form class="js-form blind">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+        <div class="greeting-div">
+            <span class="greeting-span"></span>
+        </div>
+        <form class="js-todo blind">
+            <input type="text" placeholder="Write your to-do List" />
+        </form>
+        <div class="list-div blind">
+            <ul class="pending-div"></ul>
+            <h3>------------------------</h3>
+            <ul class="finished-div"></ul>
+        </div>
+        <button type="button" class="calendar" 
+        onclick="document.location.href='calendar.html'">📆</button>
+        <script src="weather.js"></script>
+        <script src="background.js"></script>
+        <script src="todo.js"></script>
+        <script src="greeting.js"></script>
+        <script src="clock.js"></script>
+    </body>
+</html>
